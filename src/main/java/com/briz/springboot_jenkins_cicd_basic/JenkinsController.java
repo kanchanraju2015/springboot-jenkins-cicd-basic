@@ -10,5 +10,8 @@ public class JenkinsController
 public String test()
 {
 	return "this is jenkins automation test";
-}
+}@RequestMapping("/jenkins")
+	public String jenkins()
+	{
+		return "this is jenkins test";
 }
